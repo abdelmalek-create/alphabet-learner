@@ -1,1 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f1f8ff;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  color: #3366cc;
+}
+
+.question-area {
+  margin: 20px 0;
+  background: #fff9c4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.choices button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.drawing-area {
+  margin-top: 20px;
+}
+
+canvas {
+  border: 2px dashed #555;
+  background-color: #fff;
+}
+
+#feedback {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
 
