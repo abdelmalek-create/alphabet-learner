@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Learn Letters</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 Let’s Learn Letters!</h1>
+
+    <div class="question-area">
+      <p>Select the uppercase and lowercase of:</p>
+      <h2 id="target-letter">A</h2>
+    </div>
+
+    <div class="choices" id="choices-container"></div>
+
+    <div class="drawing-area">
+      <p>✍ Write the letter in cursive:</p>
+      <canvas id="canvas" width="300" height="150"></canvas>
+      <button onclick="clearCanvas()">Clear</button>
+    </div>
+
+    <p id="feedback" class="hidden"></p>
+    
+    <audio id="audio-correct" src="assets/audio/correct.mp3"></audio>
+    <audio id="audio-wrong" src="assets/audio/wrong.mp3"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
